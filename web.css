@@ -1,0 +1,93 @@
+body{
+    background-color: white;
+}
+
+
+
+#portfolio{
+    border: 0.5px solid black;
+    border-radius: 5px;
+    background-color: white;
+    height: 2000px;
+    width: 75%;
+    margin: auto;
+}
+
+
+#page{
+    background-color: rgba(236, 236, 236, 0.479);
+    height: 650px;
+    width: 60%;
+    position: absolute;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    left: 19,5%;
+    right: 19.5%;
+    top: 154px;
+}
+
+
+#menu{
+    position: fixed;
+    background-color: aqua;
+    height: 20px;
+    width: 70%;
+    padding: 0.5%;
+    left: 14.5%;
+    right: 14.5%;
+    z-index: 999;
+}
+
+
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #051726;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: auto;
+    margin-top: 100px;
+    padding: 3;
+    width: 200px;
+    background-color: #051726;
+  }
+  
+  li a {
+    font-size: 25px;
+    display: block;
+    color: white;
+    padding: 20px 28px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #69BF41;
+    color: white;
+  }
+
+  li{
+    padding: 10px;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 30px;}
+  }
